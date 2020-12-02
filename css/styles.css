@@ -5441,7 +5441,8 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  /* TODO mudar cor do background de dentro aqui */
+  background-color: #a71d2a;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
