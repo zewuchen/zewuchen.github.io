@@ -2821,10 +2821,22 @@ fieldset:disabled a.btn {
   border-color: #f8f9fa;
 }
 .btn-outline-light:hover {
-  color: #212529;
+  color: #464b72;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+
+.btn-outline-dark {
+  color: #ce6c47;
+  border-color: #ce6c47;
+}
+
+.btn-outline-dark:hover {
+  color: #f9f9fb;
+  background-color: #ce6c47;
+  border-color: #ce6c47;
+}
+
 .btn-outline-light:focus, .btn-outline-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
@@ -10233,7 +10245,7 @@ form .row:first-child .floating-label-form-group {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #464b72;
-  color: #fff;
+  color: #f9f9fb;
 }
 
 .copyright {
